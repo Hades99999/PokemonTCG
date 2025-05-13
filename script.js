@@ -30,7 +30,7 @@ function openPack() {
         else {
             num = randomNumber(17,102)
         }
-        cardImg.src = "./pokemon-cards/base set (" + num.toString() + ").jpg";
+        cardImg.src = "base set (" + num.toString() + ").jpg";
 
         cardDiv.appendChild(cardImg);
         document.getElementById("pokemon-cards-opened").appendChild(cardDiv);
